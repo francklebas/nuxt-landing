@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "getStarted": "Try now"
+  },
+  "hero": {
+    "badge": "The AI copilot for fast product teams",
+    "title": "From idea to production-ready code in minutes",
+    "subtitle": "CodePilot AI helps you spec, code, test, and deploy with specialist AI agents connected to your codebase and delivery workflow.",
+    "primaryCta": "Start now",
+    "secondaryCta": "Explore features",
+    "chipOne": "Product brief to merge-ready code",
+    "chipTwo": "Guided refactor in real time",
+    "stats": {
+      "projects": "projects launched",
+      "delivery": "critical-issue free releases",
+      "speed": "average speed gain"
+    }
+  },
+  "features": {
+    "kicker": "Complete AI stack",
+    "title": "A modern landing page built to convert",
+    "subtitle": "From planning to deployment, every layer is connected so teams can iterate faster without sacrificing quality.",
+    "cards": {
+      "agents": {
+        "title": "Specialist AI agents",
+        "description": "Planning, coding, testing, and review run together like a high-performing senior team."
+      },
+      "context": {
+        "title": "Persistent project context",
+        "description": "AI understands conventions, critical modules, and business priorities to propose relevant updates."
+      },
+      "deploy": {
+        "title": "Smart continuous delivery",
+        "description": "Every pull request is validated, secured, and tracked before automatic deployment."
+      }
+    }
+  },
+  "pricing": {
+    "kicker": "Flexible pricing",
+    "title": "Choose the plan that fits your pace",
+    "subtitle": "Secure payments with Stripe. Start lean, then scale as usage and delivery volume grow.",
+    "monthly": "Monthly",
+    "yearly": "Yearly -20%",
+    "monthlyShort": "month",
+    "yearlyShort": "year",
+    "cta": "Choose this plan",
+    "processing": "Redirecting...",
+    "tiers": {
+      "starter": {
+        "label": "Starter",
+        "name": "Build",
+        "description": "Perfect for founders and freelancers who want to ship quickly.",
+        "features": ["2 active projects", "80 AI prompts per day", "One-click GitHub deploy"]
+      },
+      "pro": {
+        "label": "Most Popular",
+        "name": "Scale",
+        "description": "Great fit for product teams shipping every week.",
+        "features": ["Unlimited projects", "Automated QA agents", "24/7 priority support"]
+      },
+      "enterprise": {
+        "label": "Enterprise",
+        "name": "Orbit",
+        "description": "For organizations with strict security and governance needs.",
+        "features": ["Advanced SSO + RBAC", "Dedicated cluster", "AI architecture guidance"]
+      }
+    }
+  },
+  "cta": {
+    "title": "Join the waitlist and unlock launch AI credits",
+    "subtitle": "Your email is saved in real time with Supabase to access upcoming private invite waves.",
+    "label": "Work email",
+    "placeholder": "you{'@'}startup.ai",
+    "button": "Join the list",
+    "loading": "Submitting...",
+    "success": "You are in. We will reach out soon.",
+    "error": "Could not save your email. Check your Supabase configuration."
+  },
+  "footer": {
+    "copy": "(c) 2026 CodePilot AI. All rights reserved.",
+    "tagline": "Built with Nuxt, Pinia, Supabase, and Stripe."
+  }
+}

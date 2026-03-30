@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "features": "Fonctionnalites",
+    "pricing": "Tarifs",
+    "getStarted": "Essayer"
+  },
+  "hero": {
+    "badge": "Le copilote IA des equipes qui livrent vite",
+    "title": "Passez de l idee au code en quelques minutes",
+    "subtitle": "CodePilot AI vous aide a specifier, coder, tester et deployer avec des agents IA relies a votre codebase et a votre workflow produit.",
+    "primaryCta": "Demarrer maintenant",
+    "secondaryCta": "Explorer les fonctionnalites",
+    "chipOne": "Brief produit vers code pret a merger",
+    "chipTwo": "Refactor guide en temps reel",
+    "stats": {
+      "projects": "projets lances",
+      "delivery": "releases sans incident critique",
+      "speed": "gain moyen de vitesse"
+    }
+  },
+  "features": {
+    "kicker": "Plateforme IA complete",
+    "title": "Une landing moderne, claire et orientee conversion",
+    "subtitle": "De la specification au deploiement, tout est connecte pour accelerer vos iterations sans compromis sur la qualite.",
+    "cards": {
+      "agents": {
+        "title": "Agents IA specialises",
+        "description": "Planification, generation de code, tests et revue fonctionnent ensemble comme une equipe senior."
+      },
+      "context": {
+        "title": "Contexte projet persistant",
+        "description": "L IA comprend vos conventions, vos composants critiques et vos priorites metier pour proposer des changements utiles."
+      },
+      "deploy": {
+        "title": "Livraison continue intelligente",
+        "description": "Chaque pull request est verifiee, securisee et tracee avant de partir en deploiement automatique."
+      }
+    }
+  },
+  "pricing": {
+    "kicker": "Tarification flexible",
+    "title": "Choisissez l offre adaptee a votre rythme",
+    "subtitle": "Paiement securise via Stripe. Commencez simplement et montez en puissance quand votre volume augmente.",
+    "monthly": "Mensuel",
+    "yearly": "Annuel -20%",
+    "monthlyShort": "mois",
+    "yearlyShort": "an",
+    "cta": "Choisir cette offre",
+    "processing": "Redirection...",
+    "tiers": {
+      "starter": {
+        "label": "Debut",
+        "name": "Build",
+        "description": "Ideal pour les freelances et petites equipes qui veulent livrer vite.",
+        "features": ["2 projets actifs", "80 generations IA par jour", "Deploiement GitHub en 1 clic"]
+      },
+      "pro": {
+        "label": "Le plus choisi",
+        "name": "Scale",
+        "description": "Pour les equipes produit qui iterent et livrent chaque semaine.",
+        "features": ["Projets illimites", "Agents QA automatiques", "Support prioritaire 24/7"]
+      },
+      "enterprise": {
+        "label": "Entreprise",
+        "name": "Orbit",
+        "description": "Pour les organisations avec fortes exigences de securite et de gouvernance.",
+        "features": ["SSO + RBAC avance", "Cluster dedie", "Accompagnement architecture IA"]
+      }
+    }
+  },
+  "cta": {
+    "title": "Rejoignez la liste d attente et recevez vos credits IA de lancement",
+    "subtitle": "Votre email est enregistre en temps reel via Supabase pour acceder aux prochaines vagues d invitation.",
+    "label": "Adresse email pro",
+    "placeholder": "vous{'@'}startup.ai",
+    "button": "Rejoindre la liste",
+    "loading": "Envoi en cours...",
+    "success": "Parfait, vous etes inscrit. On vous contacte tres bientot.",
+    "error": "Impossible d enregistrer votre email. Verifiez la configuration Supabase."
+  },
+  "footer": {
+    "copy": "(c) 2026 CodePilot AI. Tous droits reserves.",
+    "tagline": "Concu avec Nuxt, Pinia, Supabase et Stripe."
+  }
+}

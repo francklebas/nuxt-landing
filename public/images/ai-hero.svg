@@ -1,0 +1,34 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#0C4A6E"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="220" y1="180" x2="980" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#0E2238" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(860 180) rotate(125) scale(420 360)">
+      <stop stop-color="#22D3EE" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="900" rx="42" fill="url(#bg)"/>
+  <rect width="1200" height="900" rx="42" fill="url(#glow)"/>
+
+  <rect x="210" y="160" width="780" height="580" rx="26" fill="url(#panel)" stroke="#67E8F9" stroke-opacity="0.25"/>
+  <rect x="250" y="220" width="220" height="34" rx="10" fill="#0B2840"/>
+  <rect x="250" y="278" width="530" height="14" rx="7" fill="#164E63"/>
+  <rect x="250" y="304" width="460" height="14" rx="7" fill="#155E75"/>
+  <rect x="250" y="356" width="340" height="240" rx="18" fill="#082F49" stroke="#22D3EE" stroke-opacity="0.28"/>
+  <rect x="610" y="356" width="340" height="110" rx="18" fill="#083344" stroke="#67E8F9" stroke-opacity="0.24"/>
+  <rect x="610" y="486" width="340" height="110" rx="18" fill="#0A2B3A" stroke="#67E8F9" stroke-opacity="0.24"/>
+
+  <circle cx="360" cy="476" r="62" fill="#0891B2" fill-opacity="0.35"/>
+  <circle cx="720" cy="412" r="24" fill="#22D3EE" fill-opacity="0.45"/>
+  <circle cx="870" cy="544" r="34" fill="#06B6D4" fill-opacity="0.38"/>
+
+  <path d="M294 650H906" stroke="#67E8F9" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"/>
+  <path d="M310 680H760" stroke="#22D3EE" stroke-opacity="0.28" stroke-width="2" stroke-linecap="round"/>
+</svg>
