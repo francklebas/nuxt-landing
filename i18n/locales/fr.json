@@ -2,38 +2,53 @@
   "nav": {
     "features": "Fonctionnalites",
     "pricing": "Tarifs",
-    "getStarted": "Essayer"
+    "getStarted": "Essayer",
+    "tagline": "Build fiable"
   },
   "hero": {
-    "badge": "Le copilote IA des equipes qui livrent vite",
-    "title": "Passez de l idee au code en quelques minutes",
-    "subtitle": "CodePilot AI vous aide a specifier, coder, tester et deployer avec des agents IA relies a votre codebase et a votre workflow produit.",
+    "badge": "Copilote IA pour equipes produit exigeantes",
+    "title": "Concevez, codez et livrez sans perdre le fil",
+    "subtitle": "CodePilot AI relie la spec produit, le code, les tests et la livraison. Vous gardez la main, l IA accelere chaque etape.",
     "primaryCta": "Demarrer maintenant",
-    "secondaryCta": "Explorer les fonctionnalites",
-    "chipOne": "Brief produit vers code pret a merger",
-    "chipTwo": "Refactor guide en temps reel",
-    "stats": {
-      "projects": "projets lances",
-      "delivery": "releases sans incident critique",
-      "speed": "gain moyen de vitesse"
+    "secondaryCta": "Voir la plateforme",
+    "chipOne": "Spec produit vers PR exploitable",
+    "chipTwo": "Refactor guide avec diff explique",
+    "stackLabel": "Integre a",
+    "proofOne": {
+      "kicker": "TRANSPARENCE",
+      "title": "Pas de vanity metrics",
+      "description": "On affiche vos vrais indicateurs projet, pas des chiffres marketing inventes."
+    },
+    "proofTwo": {
+      "kicker": "CONTROLE",
+      "title": "Validation humaine a chaque etape",
+      "description": "Chaque proposition IA est revue avant merge pour garder votre niveau de qualite."
+    },
+    "proofThree": {
+      "kicker": "TRACTION",
+      "title": "Pret pour test en conditions reelles",
+      "description": "Branchez votre repo et mesurez le gain sur votre flux de livraison actuel."
     }
   },
   "features": {
-    "kicker": "Plateforme IA complete",
-    "title": "Une landing moderne, claire et orientee conversion",
-    "subtitle": "De la specification au deploiement, tout est connecte pour accelerer vos iterations sans compromis sur la qualite.",
+    "kicker": "Workflow produit augmente",
+    "title": "Trois blocs pour passer de l idee au deploy",
+    "subtitle": "Chaque bloc est concu pour limiter le bruit, accelerer les decisions et garder un niveau d execution senior.",
     "cards": {
       "agents": {
-        "title": "Agents IA specialises",
-        "description": "Planification, generation de code, tests et revue fonctionnent ensemble comme une equipe senior."
+        "tag": "01 Plan",
+        "title": "Orchestration multi-agents",
+        "description": "PM, dev et QA IA collaborent dans la meme boucle pour produire des tickets et un plan d implementation actionnable."
       },
       "context": {
-        "title": "Contexte projet persistant",
-        "description": "L IA comprend vos conventions, vos composants critiques et vos priorites metier pour proposer des changements utiles."
+        "tag": "02 Build",
+        "title": "Contexte codebase persistant",
+        "description": "L IA retient vos standards, reperes architecture et zones sensibles pour proposer du code coherent avec votre base existante."
       },
       "deploy": {
-        "title": "Livraison continue intelligente",
-        "description": "Chaque pull request est verifiee, securisee et tracee avant de partir en deploiement automatique."
+        "tag": "03 Release",
+        "title": "Pipeline release sous controle",
+        "description": "Tests, checklist securite et statut de livraison sont centralises pour reduire les regressions en production."
       }
     }
   },

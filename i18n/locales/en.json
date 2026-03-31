@@ -2,38 +2,53 @@
   "nav": {
     "features": "Features",
     "pricing": "Pricing",
-    "getStarted": "Try now"
+    "getStarted": "Try now",
+    "tagline": "Reliable build"
   },
   "hero": {
-    "badge": "The AI copilot for fast product teams",
-    "title": "From idea to production-ready code in minutes",
-    "subtitle": "CodePilot AI helps you spec, code, test, and deploy with specialist AI agents connected to your codebase and delivery workflow.",
+    "badge": "AI copilot for high-expectation product teams",
+    "title": "Design, build, and ship without losing momentum",
+    "subtitle": "CodePilot AI connects product specs, code, testing, and delivery. Your team stays in control while AI accelerates execution.",
     "primaryCta": "Start now",
-    "secondaryCta": "Explore features",
-    "chipOne": "Product brief to merge-ready code",
-    "chipTwo": "Guided refactor in real time",
-    "stats": {
-      "projects": "projects launched",
-      "delivery": "critical-issue free releases",
-      "speed": "average speed gain"
+    "secondaryCta": "View platform",
+    "chipOne": "Product brief to deployable PR",
+    "chipTwo": "Guided refactor with explained diff",
+    "stackLabel": "Connected to",
+    "proofOne": {
+      "kicker": "TRANSPARENCY",
+      "title": "No vanity metrics",
+      "description": "You see real delivery metrics from your project, not invented growth numbers."
+    },
+    "proofTwo": {
+      "kicker": "CONTROL",
+      "title": "Human validation at each step",
+      "description": "Every AI output is reviewed before merge so quality standards remain yours."
+    },
+    "proofThree": {
+      "kicker": "TRACTION",
+      "title": "Ready for real-world evaluation",
+      "description": "Connect your repo and measure impact directly on your current delivery workflow."
     }
   },
   "features": {
-    "kicker": "Complete AI stack",
-    "title": "A modern landing page built to convert",
-    "subtitle": "From planning to deployment, every layer is connected so teams can iterate faster without sacrificing quality.",
+    "kicker": "Augmented product workflow",
+    "title": "Three blocks from idea to production",
+    "subtitle": "Each block is designed to cut noise, speed up decisions, and keep senior-level execution quality.",
     "cards": {
       "agents": {
-        "title": "Specialist AI agents",
-        "description": "Planning, coding, testing, and review run together like a high-performing senior team."
+        "tag": "01 Plan",
+        "title": "Multi-agent orchestration",
+        "description": "AI PM, dev, and QA agents collaborate in one loop to produce clear tickets and actionable implementation plans."
       },
       "context": {
-        "title": "Persistent project context",
-        "description": "AI understands conventions, critical modules, and business priorities to propose relevant updates."
+        "tag": "02 Build",
+        "title": "Persistent codebase context",
+        "description": "AI keeps your standards, architecture anchors, and sensitive areas in memory to generate coherent code changes."
       },
       "deploy": {
-        "title": "Smart continuous delivery",
-        "description": "Every pull request is validated, secured, and tracked before automatic deployment."
+        "tag": "03 Release",
+        "title": "Controlled release pipeline",
+        "description": "Tests, security checks, and release state are centralized to reduce regressions in production."
       }
     }
   },

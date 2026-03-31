@@ -12,7 +12,7 @@
         </div>
         <div>
           <p class="font-display text-lg font-semibold">CodePilot AI</p>
-          <p class="text-xs uppercase tracking-[0.24em] text-white/60">Ship faster</p>
+          <p class="text-xs uppercase tracking-[0.24em] text-white/60">{{ t('nav.tagline') }}</p>
         </div>
       </div>
 
@@ -62,10 +62,16 @@
           </div>
 
           <div class="grid gap-4 sm:grid-cols-3">
-            <div v-for="item in heroStats" :key="item.label" class="stat-card">
-              <p class="font-display text-2xl font-semibold">{{ item.value }}</p>
-              <p class="text-xs uppercase tracking-[0.16em] text-white/65">{{ item.label }}</p>
+            <div v-for="item in proofPoints" :key="item.title" class="proof-card">
+              <p class="text-[11px] uppercase tracking-[0.18em] text-cyan-100/80">{{ item.kicker }}</p>
+              <p class="mt-2 font-display text-xl font-semibold">{{ item.title }}</p>
+              <p class="mt-2 text-sm text-white/70">{{ item.description }}</p>
             </div>
+          </div>
+
+          <div class="flex flex-wrap items-center gap-2 text-xs text-white/65">
+            <span class="mr-2 uppercase tracking-[0.18em]">{{ t('hero.stackLabel') }}</span>
+            <span v-for="logo in stackLogos" :key="logo" class="stack-pill">{{ logo }}</span>
           </div>
         </div>
 
@@ -97,6 +103,7 @@
         <div class="grid gap-5 md:grid-cols-3">
           <article v-for="feature in featureCards" :key="feature.title" class="feature-card">
             <img :src="feature.image" :alt="feature.title" class="feature-image" loading="lazy">
+            <p class="feature-tag">{{ feature.tag }}</p>
             <h3 class="font-display mt-5 text-2xl font-semibold">{{ feature.title }}</h3>
             <p class="mt-3 text-sm text-white/75">{{ feature.description }}</p>
           </article>
@@ -235,24 +242,33 @@ watch(
   }
 )
 
-const heroStats = computed(() => [
-  { value: '12k+', label: t('hero.stats.projects') },
-  { value: '96%', label: t('hero.stats.delivery') },
-  { value: '3.4x', label: t('hero.stats.speed') }
+const proofPoints = computed(() => [
+  { kicker: t('hero.proofOne.kicker'), title: t('hero.proofOne.title'), description: t('hero.proofOne.description') },
+  { kicker: t('hero.proofTwo.kicker'), title: t('hero.proofTwo.title'), description: t('hero.proofTwo.description') },
+  {
+    kicker: t('hero.proofThree.kicker'),
+    title: t('hero.proofThree.title'),
+    description: t('hero.proofThree.description')
+  }
 ])
+
+const stackLogos = ['Nuxt', 'Vue', 'Stripe', 'Supabase', 'Pinia']
 
 const featureCards = computed(() => [
   {
+    tag: t('features.cards.agents.tag'),
     title: t('features.cards.agents.title'),
     description: t('features.cards.agents.description'),
     image: '/images/ai-agents.svg'
   },
   {
+    tag: t('features.cards.context.tag'),
     title: t('features.cards.context.title'),
     description: t('features.cards.context.description'),
     image: '/images/ai-context.svg'
   },
   {
+    tag: t('features.cards.deploy.tag'),
     title: t('features.cards.deploy.title'),
     description: t('features.cards.deploy.description'),
     image: '/images/ai-deploy.svg'
